@@ -6,19 +6,20 @@ import {
   MdPerson,
   MdHome,
   MdLock,
-  //MdOutlineShoppingCart,
 } from "react-icons/md";
 
 // Admin Imports
 import MainDashboard from "views/admin/default";
 import Profile from "views/admin/profile";
-
+import DataTable from "views/admin/dataTables"
+import OpenApi from "views/admin/map"
 
 
 
 
 // Auth Imports
 import SignInCentered from "views/auth/signIn";
+
 
 const routes = [
   {
@@ -33,6 +34,15 @@ const routes = [
     layout: "/admin",
     icon: <Icon as={MdBarChart} width='20px' height='20px' color='inherit' />,
     path: "/data-tables",
+    component: DataTable,
+  },
+  {
+    name: "데이터2",
+    layout: "/admin",
+    icon: <Icon as={MdBarChart} width='20px' height='20px' color='inherit' />,
+    path:"/map",
+    component: OpenApi,
+    
   },
   {
     name: "나의 프로필",
