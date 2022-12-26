@@ -46,6 +46,6 @@ export function SearchBar(props) {
         borderRadius={borderRadius ? borderRadius : "30px"}
         placeholder={placeholder ? placeholder : "Search..."}
       />
-    </InputGroup>
+    </InputGroup> 
   );
 }

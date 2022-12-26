@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { blogSearch } from "./api";
+import { blogSearch } from "./components/Api";
 
 import "./App.css";
-import Item from "./Item";
+import Item from "./components/Item";
 
 const App = props => {
   const [blogs, setBlogs] = useState([]);
