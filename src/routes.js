@@ -37,7 +37,7 @@ const routes = [
     component: DataTable,
   },
   {
-    name: "데이터2",
+    name: "데이터2",  
     layout: "/admin",
     icon: <Icon as={MdBarChart} width='20px' height='20px' color='inherit' />,
     path:"/map",

@@ -7,7 +7,8 @@ const Kakao = axios.create({
   }
 });
 
-// search blog api
+
+// search map api
 export const blogSearch = params => {
-  return Kakao.get("/v2/search/blog", { params });
+  return Kakao.get("/v2/search/map", { params });
 };

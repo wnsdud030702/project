@@ -54,16 +54,15 @@ export default function Overview() {
           gridArea='1 / 1 / 2 / 2'
           banner={banner}
           avatar={avatar}
-          name='Adela Parkson'
-          job='Product Designer'
-          posts='17'
-          followers='9.7k'
-          following='274'
+          name='유준영'
+          job='입대예정자, 알바생'
+          age='20(만 19)'
+          birth='2003.07.02'
         />
         <Storage
           gridArea={{ base: "2 / 1 / 3 / 2", lg: "1 / 2 / 2 / 3" }}
-          used={25.6}
-          total={50}
+          used={200}
+          total={500}
         />
         <Upload
           gridArea={{
@@ -92,11 +91,10 @@ export default function Overview() {
           gridArea='1 / 2 / 2 / 2'
           banner={banner}
           avatar={avatar}
-          name='Adela Parkson'
-          job='Product Designer'
-          posts='17'
-          followers='9.7k'
-          following='274'
+          name='유준영'
+          job='입대예정자,알바생'
+          age='20(만19)'
+          birth='2003.07.02'
         />
         <General
           gridArea={{ base: "2 / 1 / 3 / 2", lg: "1 / 2 / 2 / 3" }}
@@ -104,8 +102,8 @@ export default function Overview() {
           pe='20px'
         />
         <Notifications
-          used={25.6}
-          total={50}
+          used={200}
+          total={500}
           gridArea={{
             base: "3 / 1 / 4 / 2",
             lg: "2 / 1 / 3 / 3",

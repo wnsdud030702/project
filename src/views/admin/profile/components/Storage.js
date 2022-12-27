@@ -37,14 +37,14 @@ export default function Banner(props) {
         bg={box}
       />
       <Text color={textColorPrimary} fontWeight='bold' fontSize='2xl' mt='10px'>
-        Your storage
+        나의 용량
       </Text>
       <Text
         color={textColorSecondary}
         fontSize='md'
         maxW={{ base: "100%", xl: "80%", "3xl": "60%" }}
         mx='auto'>
-        Supervise your drive space in the easiest way
+        Samsung 870 EVO SATA SSD 500GB
       </Text>
       <Box w='100%' mt='auto'>
         <Flex w='100%' justify='space-between' mb='10px'>

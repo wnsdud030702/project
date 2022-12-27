@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { blogSearch } from "./components/Api";
+import { blogSearch } from "./components/Api.js";
 
 import "./App.css";
-import Item from "./components/Item";
+import Item from "./components/Item.js";
 
 const App = props => {
   const [blogs, setBlogs] = useState([]);
@@ -54,7 +54,7 @@ const App = props => {
         onChange={onTextUpdate} // change
         value={text} // view
       />
-
+      
       <ul>
         {blogs.map((blog, index) => (
           <Item
